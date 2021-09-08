@@ -18,6 +18,10 @@ public class HighLowGame {
 		count++;
 		}
 		String guessString = JOptionPane.showInputDialog("Guess a number between 1 and 100");
+		int guess = Integer.parseInt(guessString);
+		if (guess == random) {
+			
+		}
 	
 		
 		// 2. Print out the random variable above
