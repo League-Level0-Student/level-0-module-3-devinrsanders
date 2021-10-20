@@ -13,11 +13,17 @@ void draw() {
   
   
   for (int i = 1; i < 10; i++) {
-    int circle = 100;
-    while (circle > 1) {
-   ellipse(300,300,circle,circle);
-   circle--;
+    
+    if (i % 2 == 0) {
+      fill(255, 0, 0);
+    } else { 
+    fill(0,0,0);
     }
+      ellipse(300,300,300 - i * 30,300 - i * 30);
+   
+   
+   
+    
    
     
   }
