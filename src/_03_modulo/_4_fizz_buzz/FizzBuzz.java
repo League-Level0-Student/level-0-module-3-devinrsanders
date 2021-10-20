@@ -27,7 +27,7 @@ public class FizzBuzz {
 				System.out.println("fizz");
 			} else if (i % 5 == 0) {
 				System.out.println("buzz");
-			} else if (i % 5 + i % 3 == 0) {
+			} else if (i % 5 i % 3 == 0) {
 				System.out.println("fizzbuzz");
 			}
 			
